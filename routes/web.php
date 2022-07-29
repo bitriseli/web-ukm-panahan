@@ -53,13 +53,22 @@ Route::get('/dashboardpeminjaman', function () {
     return view('peminjaman/index2');
 });
 
-Route::get('/daftarbarang', function () {
-    return view('peminjaman/daftarbarang');
+Route::get('/indexpeminjaman', function () {
+    return view('peminjaman/peminjaman/index');
 });
 
-Route::get('/peminjaman', function () {
-    return view('peminjaman/peminjaman');
+Route::get('/indexdaftarbarang', function () {
+    return view('peminjaman/daftarbarang/index');
 });
+
+Route::get('/daftarbarangcreate', function () {
+    return view('peminjaman/daftarbarang/create');
+});
+
+Route::get('/peminjamancreate', function () {
+    return view('peminjaman/peminjaman/create');
+});
+
 
 
 Route::get('/pendaftaran', [DaftarController::class, 'guest']);

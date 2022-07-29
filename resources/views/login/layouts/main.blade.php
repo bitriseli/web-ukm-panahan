@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="h-100 w-100" style="box-sizing: border-box; background-color: black">
+    <section class="h-100 w-100" style="box-sizing: border-box; background-color: #f5f5f5">
 
         @yield('content')
 

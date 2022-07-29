@@ -45,7 +45,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="galeri-foto.html">Agenda</a>
+                    <a class="nav-link" href="galeri-foto.html">Berita</a>
                   </li>
                   {{-- <li class="nav-item">
                     <a class="nav-link" href="galeri-foto.html">Galeri</a>
@@ -92,7 +92,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="galeri-foto.html">Agenda</a>
+              <a class="nav-link" href="galeri-foto.html">Berita</a>
             </li>
             {{-- <li class="nav-item">
               <a class="nav-link" href="galeri-foto.html">Galeri</a>

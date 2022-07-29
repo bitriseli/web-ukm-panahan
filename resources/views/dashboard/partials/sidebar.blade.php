@@ -66,7 +66,7 @@
                       <a href="#" class="nav-link">
                           <i class="nav-icon fas fa-bookmark"></i>
                           <p>
-                              Agenda
+                              Berita
                           </p>
                       </a>
                   </li>

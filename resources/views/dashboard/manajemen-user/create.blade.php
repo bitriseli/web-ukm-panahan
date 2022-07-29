@@ -29,19 +29,20 @@
                     <div class="form-group">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password">
-                      </div>
+                    </div>
                     <div class="form-group">
                         <label for="role">Role</label>
-                        <select class="form-control" aria-label="Default select example" placeholder="Select" name="role" id="role">
+                        <select class="form-control" aria-label="Default select example" placeholder="Select" name="role"
+                            id="role">
                             <option value="1">Administrator</option>
                             <option value="2">Divisi UPT</option>
-                          </select>
+                        </select>
                     </div>
-                  </div>
-                    <button type="submit" class="btn btn-success">Simpan</button>
                     <a href="/dashboard/manajemen-user" class="btn btn-primary">Kembali</a>
+                    <button type="submit" class="btn btn-success ml-2">Simpan</button>
                 </form>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 @endsection
